@@ -1,0 +1,59 @@
+.navigation {
+
+    position: relative;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        height: 60px;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        line-height: 30px;
+
+        a {
+            margin: 0 20px;
+            color: $white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+
+            &:first-of-type {
+                margin-left: 0;
+            }
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+
+        @include tablet {
+            a {
+                margin: 0 12px;
+            }
+        }
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    @include mobile-large {
+
+        overflow-x: visible;
+
+        .slicknav_menu {
+            display: block;
+        }
+
+        .navigation__inner {
+            justify-content: flex-end;
+        }
+        .navigation__nav {
+            display: none;
+            line-height: 0;
+        }
+    }
+}
