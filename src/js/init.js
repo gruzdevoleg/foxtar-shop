@@ -7,3 +7,7 @@
 
 })(jQuery);
 
+$(function() {
+	//Init tabs
+	$(".tabs").tabs();
+});
