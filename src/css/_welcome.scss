@@ -38,8 +38,10 @@
         line-height: 30px;
         letter-spacing: 0.7px;
         padding-left: 25px;
-        box-shadow: 0 1px 10px rgba(124, 178, 64, 0.75);
+        box-shadow: 0 1px 10px 0 rgba(124, 178, 64, 0.75);
         background-color: $white;
+        outline: none;
+        border: none;
     }
 
     &__form-search {
