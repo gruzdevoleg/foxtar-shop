@@ -1,13 +1,16 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     color: $gray;
 }
+
 .container-fluid {
     overflow-x: hidden;
 }
+
 .container {
     padding: 0 15px;
     overflow-x: hidden;
@@ -15,12 +18,18 @@ body {
     margin: 0 auto
 }
 
+.text-center {
+    text-align: center;
+}
+
 .link-inherit {
     color: inherit;
 }
+
 .link-no-decor {
     text-decoration: none;
 }
+
 .link-decor-inverse {
     text-decoration: none;
 
@@ -28,6 +37,7 @@ body {
         text-decoration: underline;
     }
 }
+
 .bg-darkgray {
     background-color: $dark-gray;
 }
