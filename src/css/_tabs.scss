@@ -7,7 +7,7 @@
 
 .section-title {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 38px;
     padding: 0 15px;
     text-align: center;
 }
@@ -75,7 +75,6 @@
     margin-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 18px;
     color: #263238;
     font-weight: 500;
     text-decoration: none;
@@ -117,7 +116,7 @@
 }
 
 .product__title {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .product__category {
@@ -128,7 +127,7 @@
 }
 
 .product__price {
-    /*display: inline-block;*/
+    font-size: 18px;
     vertical-align: middle;
     font-weight: 700;
 }
